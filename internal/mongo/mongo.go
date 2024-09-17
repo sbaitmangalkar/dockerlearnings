@@ -2,9 +2,9 @@ package mongo
 
 import (
 	"context"
+	"github.com/dockerlearnings/internal/model"
 	"log"
 
-	"github.com/dockerlearnings/internal/model"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
