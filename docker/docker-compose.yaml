@@ -30,6 +30,10 @@ services:
     image: redis
     ports:
       - 6379:6379
+  kafka:
+    image: apache/kafka
+    ports:
+      - 9092:9092
 volumes:
   mongo-data:
     driver: local
